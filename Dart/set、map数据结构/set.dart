@@ -6,7 +6,8 @@ main(){
    setdata.add("a");
    setdata.add("b");
    setdata.add("a");
-   print(setdata);  //{a,b}
+   setdata.addAll({"a", 'b', 'c', 'd'});
+   print(setdata);  //{a,b,c,d}
 
   //数组去重
   List listdata = ["a","b","c","a","b","c"];
